@@ -1,0 +1,33 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-menu button {
+    border: 0;
+    background-color: transparent;
+}
+.header-menu {
+    display: flex;
+}
+
+.applications {
+    display: none;
+}
+
+
+/*  Tablets */
+@media only screen and (min-width: 768px ){
+    .applications {
+        display: flex;
+    }
+
+}
+
+/*  Desktop */
+@media only screen and (min-width: 1440px ){
+    .header-menu button {
+        display: none;
+    }
+}
